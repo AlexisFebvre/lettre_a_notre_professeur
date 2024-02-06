@@ -1,29 +1,46 @@
 
 /* reset all margins/paddings*/
 * {
+    /* Handle Scroll */
+    
+
     margin: 0;
     padding: 0;
 }
 
+
+
 /* center the 🥖tige🥖*/
-#tige {
+#tige.img  {
+    /*position*/
     width: 90vw;
+    height: 300vh;
     position: absolute;
     left: 50vw;
-    transform:  translate(-50%, 60vh)
+    transform:  translate(-50%, 60vh);
+
+    /*image*/
+    background-color: rebeccapurple;
+    background-image: url("../Assets/Images/tige.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
 }
 /*flower center*/
-#center {
-    /*center*/
+.flower {
+    /*position*/
     position: absolute;
-    left: 33vw;
-    top: 30vh;
-    transform: translate(50%, 50%);
+    left: 50%;
+    transform: translate(-60%, -50%);
 
+    /*shape of you*/
+    /* width: 30vh;
+    height: 30vh; */
+}
 
-    /*taille et forme*/
-    border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
-    background-color: brown;
+#center {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100%;
+    background-color: aqua;
 }
