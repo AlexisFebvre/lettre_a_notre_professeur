@@ -1,0 +1,55 @@
+.x {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+/*for the animated petals*/
+.animated {
+    animation: petal 10s, gravity 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes petal {
+        10% {
+            translate: 15vw;
+        }
+        20% {
+            translate: -20vw;
+        }
+        30% {
+            translate: 30vw;
+        }
+        40% {
+            translate: -50vw;
+        }
+        50% {
+            translate: 75vw;
+            opacity: 100%;
+        }
+        60% {
+            translate: -100vw;
+        }
+        70% {
+            translate: 150vw;
+        }
+        80% {
+            translate: -150vw;
+        }
+        100% {
+            translate: 175vw;
+            opacity: 0%;
+        }
+    }
+@keyframes gravity {
+    100% {
+        translate: 0 300vh;
+    }
+}
+
+
+/* Just for test */
+#petal2 {
+    background-color: green;
+}
