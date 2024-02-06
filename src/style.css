@@ -1,0 +1,29 @@
+
+/* reset all margins/paddings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* center the 🥖tige🥖*/
+#tige {
+    width: 90vw;
+    position: absolute;
+    left: 50vw;
+    transform:  translate(-50%, 60vh)
+}
+/*flower center*/
+#center {
+    /*center*/
+    position: absolute;
+    left: 33vw;
+    top: 30vh;
+    transform: translate(50%, 50%);
+
+
+    /*taille et forme*/
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    background-color: brown;
+}
