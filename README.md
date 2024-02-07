@@ -15,7 +15,11 @@ Nous vous avons concocté ceci
 * coder le systeme d'aparaisson des pages d'informations
 * coder les pages d'informations
 
+### IN WORK
+
+* faire l'animation de la pétale qui tombe
+
 ### DONE
 
 * créer le github
-* faire l'animation de la pétale qui tombe
+*
