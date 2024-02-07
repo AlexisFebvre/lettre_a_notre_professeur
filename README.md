@@ -17,9 +17,8 @@ Nous vous avons concocté ceci
 
 ### IN WORK
 
-* faire l'animation de la pétale qui tombe
 
 ### DONE
 
 * créer le github
-*
+* animation de scroll vers le bas lorsque le pétal tombe
