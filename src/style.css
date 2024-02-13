@@ -40,10 +40,17 @@ body {
     height: 30vh; */
 }
 
-#center {
+.center {
     width: 30vh;
     height: 30vh;
     border-radius: 100%;
     background-color: brown;
+    z-index: 1;
 }
 
+.petal-wrapper {
+    position: absolute;
+    top: 50%; 
+    background-color: aquamarine;
+    z-index: -1;
+}

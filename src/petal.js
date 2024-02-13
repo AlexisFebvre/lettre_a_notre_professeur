@@ -13,7 +13,7 @@ var infos = document.getElementById("background");
 
 
 // GETTING ALL THE PETALS //
-var petalParent = document.getElementById("center");
+var petalParent = document.getElementById("petal-parent");
 var petals = [].slice.call(petalParent.children);
 
 

@@ -1,8 +1,9 @@
 .x {
-    width: 100px;
-    height: 100px;
+    width: 20vh;
+    height: 20vh;
     background-color: red;
 }
+
 
 /*for the animated petals*/
 .animated {
@@ -48,12 +49,56 @@
     }
 }
 
+.petal {
+    position: absolute;
+}
 
 /* Just for test */
+#petal0 {
+    background-color: red;
+    position: absolute;
+    top: -30vh;
+    left: 5vh;
+}
+
 #petal1 {
     background-color: green;
+    position: absolute;
+    top: -22.5vh;
+    left: -10vh;
 }
 
 #petal2 {
-    background-color: blue;
+    background-color: yellow;
+    position: absolute;
+    top: -10vh;
+    left: -15vh;   
+}
+
+#petal3 {
+    background-color: orange;
+    position: absolute;
+    top: -10vh;
+    left: 20vh;   
+}
+
+#petal4 {
+    background-color: plum;
+    position: absolute;
+    top: -25vh;
+    left: 20vh;   
+}
+
+#petal5 {
+    background-color: wheat;
+    position: absolute;
+    top: 5vh;
+    left: 15vh;   
+}
+
+#petal6 {
+    background-color: gold;
+    position: absolute;
+    top: 5vh;
+    left: -5vh;   
 }

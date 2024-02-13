@@ -11,13 +11,27 @@
 
 
     backdrop-filter: blur(2em);
-    color: black;
+      color: black;
 
 
 }
 
-.infos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+/** GENERAL **/
+#mainTitle {
+    color: #4e4e4e;
+
+    position: relative;
+    top: 4%;
+    left: 35%;
+}
+
+/** PAGE INGENIEUR INFORMATIQUE **/
+.subtitle#ingenieur {
+    text-decoration: underline;
+    font-size: 2em;
+}
+.box#ingenieur {
+    padding-top: 4em;
+    padding-left: 4em;
 }
