@@ -44,7 +44,12 @@ body {
     width: 30vh;
     height: 30vh;
     border-radius: 100%;
-    background-color: brown;
+   
+    background-image: url("../Assets/Images/pistile.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
     z-index: 1;
 }
 
