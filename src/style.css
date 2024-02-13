@@ -11,6 +11,19 @@ body {
     color: #4e4e4e4e
 }
 
+#main-title {
+    color: #262626;
+    text-decoration: underline;
+
+    font-size: 4em;
+    font-family:'Times New Roman', Times, serif;
+
+    position: absolute;
+    left: 50vw;
+    top: 4vh;
+    transform: translate(-50%, 0);
+
+}
 
 
 /*Center the 🥖tige🥖*/

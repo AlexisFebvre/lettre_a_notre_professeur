@@ -1,7 +1,7 @@
 .x {
-    width: 20vh;
-    height: 20vh;
-    background-color: red;
+    width: 30vh;
+    height: 30vh;
+    /* background-color: red; */
 }
 
 
@@ -55,50 +55,82 @@
 
 /* Just for test */
 #petal0 {
-    background-color: red;
+    /* background-color: red; */
     position: absolute;
-    top: -30vh;
-    left: 5vh;
+    top: -38vh;
+    left: 4vh;
 }
 
 #petal1 {
-    background-color: green;
+    /* background-color: green; */
     position: absolute;
-    top: -22.5vh;
-    left: -10vh;
+    top: -30vh;
+    left: -12vh;
+    transform: rotate(-45deg);
 }
 
 #petal2 {
-    background-color: yellow;
+    /* background-color: yellow; */
     position: absolute;
-    top: -10vh;
-    left: -15vh;   
+    top: -14vh;
+    left: -20vh;
+    transform: rotate(-90deg);
 }
 
 #petal3 {
-    background-color: orange;
+    /* background-color: orange; */
     position: absolute;
-    top: -10vh;
-    left: 20vh;   
+    top: -14vh;
+    left: 20vh;
+    transform: rotate(90deg);
 }
 
 #petal4 {
-    background-color: plum;
+    /* background-color: plum; */
     position: absolute;
-    top: -25vh;
-    left: 20vh;   
+    top: -30vh;
+    left: 20vh;
+    transform: rotate(60deg);   
 }
 
 #petal5 {
-    background-color: wheat;
+    /* background-color: wheat; */
     position: absolute;
-    top: 5vh;
-    left: 15vh;   
+    top: 2vh;
+    left: 15vh;
+    transform: rotate(135deg);
 }
 
 #petal6 {
-    background-color: gold;
+    /* background-color: gold; */
     position: absolute;
-    top: 5vh;
-    left: -5vh;   
+    top: 4vh;
+    left: -7vh;
+    transform: rotate(-150deg);
+}
+
+
+/** APLLY TEXTURES **/
+#petal0, #petal3, #petal5 {
+    /* petal 1 */
+    background-image: url("../Assets/Images/petal1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#petal1, #petal4 {
+    /* petal 2 */
+    background-image: url("../Assets/Images/petal1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#petal2, #petal6 {
+    /* petal 3 */
+    background-image: url("../Assets/Images/petal1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
