@@ -11,27 +11,44 @@
 
 
     backdrop-filter: blur(2em);
-      color: black;
-
-
+    color: black;
 }
 
 
-/** GENERAL **/
+/** GENERAL (across all infos pages) **/
 #mainTitle {
     color: #4e4e4e;
 
     position: relative;
     top: 4%;
     left: 35%;
-}
 
-/** PAGE INGENIEUR INFORMATIQUE **/
-.subtitle#ingenieur {
+    font-size: 3em;
+    text-decoration: underline;
+}
+.subtitle {
     text-decoration: underline;
     font-size: 2em;
 }
+/* make the boxes centered */
+.wrapper#infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* box to store each individual informations */
+.box {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/** PAGE INGENIEUR INFORMATIQUE **/
+.subtitle#ingenieur {
+    padding-bottom: 1em;
+}
+
 .box#ingenieur {
-    padding-top: 4em;
-    padding-left: 4em;
+    padding-top: 10%;
 }

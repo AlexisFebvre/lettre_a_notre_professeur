@@ -104,7 +104,21 @@ function centerOnInfos() {
 const dafaultPage = "<h1>Error 404</h1>";
 
 const pages = [
-  "<h1>This is page 1!</h1>"
+  // Page 1
+  `<h1>This is page 1!</h1>`,
+  // Page ingénieur informaticien
+  `<h1 id="mainTitle">Ingénieur informaticien!</h1>
+  <div class="wrapper" id="infos">
+      <div class="box" id="ingenieur">
+          <h3 class="subtitle" id="ingenieur">Ingénieur informaticien:</h4>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rlarCLhzfoU?si=WZG5dRsX9VFfXDXJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div class="box" id="expert-python">
+          <h3 class="subtitle" id="expert-python">Expert python:</h3>
+          
+      </div>
+  </div>`
 ];
 
 
