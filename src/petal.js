@@ -118,6 +118,25 @@ const pages = [
           <h3 class="subtitle" id="expert-python">Expert python:</h3>
           
       </div>
+  </div>`,
+  // Page un homme à tout faire
+  `<h1 id="mainTitle">Un homme aux multiples facettes...</h1>
+  <div class="wrapper" id="infos">
+      <div class="box homme-a-tout-faire" id="professeur">
+          <h3 class="subtitle" id="professeur">Un professeur hors pair:</h4>
+          <img class="info-images" src="Assets/Images/meilleur_professeur.png" alt="le meilleur des professeurs">
+      </div>
+
+      <div class="box homme-a-tout-faire" id="game-dev">
+          <h3 class="subtitle" id="game-dev">Un développer de jeux connu à l'internationnal:</h3>
+          <img class="info-images" src="Assets/Images/jeu_squash.png" alt="jeu squas par MR. Albrecht">
+          <h6>Squash Game, By Mr Albrecht</h6>
+      </div>
+
+      <div class="box homme-a-tout-faire" id="super-hero">
+          <h3 class="subtitle" id="super-hero">Le meilleur des super héro:</h3>
+          <img class="info-images" src="Assets/Images/super_hero.png" alt="super hero du code">
+      </div>
   </div>`
 ];
 

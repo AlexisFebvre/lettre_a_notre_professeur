@@ -18,10 +18,12 @@
 /** GENERAL (across all infos pages) **/
 #mainTitle {
     color: #4e4e4e;
+    
+    text-align: center;
 
     position: relative;
     top: 4%;
-    left: 35%;
+    
 
     font-size: 3em;
     text-decoration: underline;
@@ -37,10 +39,16 @@
     align-items: center;
     
 }
+
+.info-images {
+    width: 20vw;
+    padding-top: 5%;
+}
+
 /* box to store each individual informations */
 .box {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 
@@ -50,5 +58,11 @@
 }
 
 .box#ingenieur {
+    padding-top: 10%;
+}
+
+
+/** PAGE HOMME A TOUT FAIRE **/
+.homme-a-tout-faire {
     padding-top: 10%;
 }
