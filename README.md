@@ -1,9 +1,13 @@
 # Lettre à Albrecht
 
-Pour nous avoir suporté pendant ce début d'année
-Nous avons décidé de vous remercier
-Pour nous avoir appris la passion informatique
-Nous vous avons concocté ceci
+Pour nous avoir suporté pendant ce début d'année \
+Nous avons décidé de vous remercier \
+Pour nous avoir appris la passion informatique \
+Nous vous avons concocté ce poème lyrique \
+Que-dis-je, cette page idyllique \
+Alors prenez place dans votre chaise \
+Afin que cette experience vous mette à votrre aise.
+
 
 ## Proposition
 
