@@ -137,7 +137,22 @@ const pages = [
           <h3 class="subtitle" id="super-hero">Le meilleur des super héro:</h3>
           <img class="info-images" src="Assets/Images/super_hero.png" alt="super hero du code">
       </div>
-  </div>`
+  </div>`,
+  // Page idole des jeunes
+  `<h1 id="mainTitle">Une idole des jeunes</h1>
+  <div class="wrapper" id="infos">
+      <div class="box" id="stats">
+          <h3 class="subtitle">Apprécié de tous</h3>
+          <img class="info-images" id="stats" src="Assets/Images/appreciation.png" alt="étude de l'appreciation de mr albrecht">
+          <h6>(études réalisé sur un échantillon de 0 personnes)</h6>
+      </div>
+      <div class="box" id="vacances">
+          <h3 class="subtitle" id="vacances">Regretté de beaucoup</h3>
+          <img src="Assets/Images/vacances-triste.jpg" alt="pov: les élèves pendant les vacances" class="info-images" id="vacances">
+      </div>
+  </div>`,
+  // Page ...
+  ``
 ];
 
 

@@ -66,3 +66,14 @@
 .homme-a-tout-faire {
     padding-top: 10%;
 }
+
+/**PAGE IDOLE DES JEUNES**/
+.box#stats {
+    padding-top: 15vh;
+}
+
+.info-images#stats {
+   
+   width: auto;
+   height: 50vh;
+}
