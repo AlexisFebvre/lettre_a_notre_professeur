@@ -26,7 +26,7 @@ petals.forEach(p => {
     // Scroll to the petal
     const pRect = p.getBoundingClientRect();
     window.scrollTo({
-      left: pRect.left + window.scrollX - (window.innerWidth / 2) + (pRect.width / 2),
+      // left: pRect.left + window.scrollX - (window.innerWidth / 2) + (pRect.width / 2),
       top: pRect.top + window.scrollY - (window.innerHeight / 2) + (pRect.height / 2),
       behavior: 'smooth'
     });
