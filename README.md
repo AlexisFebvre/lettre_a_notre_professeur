@@ -6,7 +6,7 @@ Pour nous avoir appris la passion informatique \
 Nous vous avons concocté ce poème lyrique \
 Que-dis-je, cette page idyllique \
 Alors prenez place dans votre chaise \
-Afin que cette experience vous plaise.
+Afin que cette experience vous mette à votrre aise.
 
 
 ## Proposition
