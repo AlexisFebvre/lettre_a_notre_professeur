@@ -9,8 +9,10 @@
     width: 90vw;
     height: 90vh;
 
-
-    backdrop-filter: blur(2em);
+    border-radius: 5%;
+    
+    /* backdrop-filter: blur(2em); */
+    background-color: antiquewhite;
     color: black;
 }
 
@@ -76,4 +78,9 @@
    
    width: auto;
    height: 50vh;
+}
+
+/** PAGE POEM **/
+.poem {
+    padding-top: 35vh;
 }
