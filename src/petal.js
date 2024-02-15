@@ -64,7 +64,7 @@ function folowAnimatedPetal(_petal) {
 
     /* Scroll, WARNING => use behaviour:'instant' */
     window.scrollTo({
-      left: scrollLeft,
+      // left: scrollLeft,
       top: scrollTop,
       behavior: 'instant'
     });
