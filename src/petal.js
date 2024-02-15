@@ -34,6 +34,7 @@ petals.forEach(p => {
     // Wait few miliseconds for the scrolling animation to finish
     setTimeout(() => {
       // Change the infos pages
+      console.log(`Trying to get petal ${petalIndex}`);
       changeInfoPage(petalIndex);
 
       // Add the animation by changing the class
