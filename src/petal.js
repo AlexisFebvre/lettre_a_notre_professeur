@@ -106,7 +106,7 @@ const dafaultPage = "<h1>Error 404</h1>";
 
 const pages = [
   // Page poem
-  `<h1 onmousemove="StartPoeme()" id="mainTitle" class="poem" >Très cher professeur....</h1>`,
+  `<h1 onclick="StartPoeme();" id="mainTitle" class="poem" >Très cher professeur....</h1>`,
   // Page ingénieur informaticien
   `<h1 id="mainTitle">Ingénieur informaticien!</h1>
   <div class="wrapper" id="infos">

@@ -84,3 +84,8 @@
 .poem {
     padding-top: 35vh;
 }
+
+.poem#mainTitle:hover {
+    color: red;
+    cursor:pointer;
+}

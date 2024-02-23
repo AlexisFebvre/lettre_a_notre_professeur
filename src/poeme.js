@@ -72,6 +72,7 @@ function StartPoeme() {
     canStart = false;
 
     console.log("Poeme started")
+    NextText()
     nextTextIntervalBuffer = setInterval(NextText, 6000);
 }
 
